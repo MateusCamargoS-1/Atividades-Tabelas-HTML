@@ -1,0 +1,46 @@
+header nav a:nth-child(1)  {
+    color: #fff;
+    background-color: #222;
+}
+
+main {
+    max-width: 100%;
+    display: flex;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    margin: 0 15px;
+}
+
+table,td {
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 30px;
+}
+
+/* Tabela 1 */
+.row-1 {
+    text-align: start;
+}
+.row-2 {
+    text-align: center;
+}
+.row-3 {
+    text-align: end;
+}
+
+/* Tabela 2 */
+.row-2-t2 {
+    text-align: center;
+}
+
+/* Tabela 3 */
+.row-1-t3 td:nth-child(3) {
+    text-align: center;
+}
+
+.row-2-t3 {
+    text-align: center;
+}

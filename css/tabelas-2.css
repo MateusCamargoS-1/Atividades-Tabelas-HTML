@@ -1,0 +1,21 @@
+header nav a:nth-child(2)  {
+    color: #fff;
+    background-color: #222;
+}
+
+/* TABLE */
+
+table,
+td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+tbody {
+    height: 50vh;
+}
+
+tbody tr td:nth-child(2) {
+    padding: 0 40px;
+}

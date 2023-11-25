@@ -1,0 +1,42 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Geral */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid #222;
+}
+
+header nav a {
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+header nav a:hover {
+    color: #fff;
+    background-color: #999;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+td {
+    padding: 15px;
+}

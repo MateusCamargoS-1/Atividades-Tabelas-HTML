@@ -21,28 +21,3 @@ table {
 table,td {
     border: 1px solid;
 }
-
-/* Tabela 1 */
-.row-1 {
-    text-align: start;
-}
-.row-2 {
-    text-align: center;
-}
-.row-3 {
-    text-align: end;
-}
-
-/* Tabela 2 */
-.row-2-t2 {
-    text-align: center;
-}
-
-/* Tabela 3 */
-.row-1-t3 td:nth-child(3) {
-    text-align: center;
-}
-
-.row-2-t3 {
-    text-align: center;
-}
